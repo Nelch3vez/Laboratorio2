@@ -3,6 +3,9 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Longitud from '../views/Longitud.vue'
 import Monedas from '../views/Monedas.vue'
+import Masa from '../views/Masa.vue'
+import Tiempo from '../views/Tiempo.vue'
+import Almacenamiento from '../views/Almacenamiento.vue'
 
 
 
@@ -23,6 +26,21 @@ const routes = [
     path: '/monedas',
     name: 'Monedas',
     component: Monedas
+  },
+  {
+    path: '/masa',
+    name: 'Masa',
+    component: Masa
+  },
+  {
+    path: '/tiempo',
+    name: 'Tiempo',
+    component: Tiempo
+  },
+  {
+    path: '/almacenamiento',
+    name: 'Almacenamiento',
+    component: Almacenamiento
   },
   {
     path: '/about',
